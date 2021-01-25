@@ -1,0 +1,12 @@
+﻿{%extends "newbase.html"  %}
+{% block a %}
+    <form  method='POST'>
+    <p>用户名</p></br>
+		<input type="text" name="user">
+	<p>密码</p></br>
+		<input type="text" name="password">
+	<p>输入要删除的文件名</p></br>
+		<input type="text" name="removefile">
+        <input type="submit"value="提交">
+    </form>
+{% endblock %}
