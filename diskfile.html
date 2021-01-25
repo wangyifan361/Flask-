@@ -1,9 +1,0 @@
-{%extends "newbase.html"  %}
-
-{% block a %}
-
-{% for line in filelist %}
-<p><a href="/static/{{username}}/{{line}}">{{line}}</a></p>
-{%endfor%}
-
-{% endblock %}
